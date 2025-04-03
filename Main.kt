@@ -5,6 +5,7 @@ fun main(){
     day.WeekendOrWeekday()
     day.DiscountOnTransportForDay()
     println()
+
     val color = Colors.YELLOW
     println(color.ColorName())
     println(color.rgb)
@@ -12,4 +13,11 @@ fun main(){
     color.PriceTomatoPerColor()
     color.SizeCan()
     println(color.TrafficLight())
+    println()
+
+    val status = Status.InStock
+    println(status.StatusName())
+    status.NextStatus()
+    status.WaitingTime()
+    status.RefusalOfGoods()
 }
